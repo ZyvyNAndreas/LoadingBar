@@ -2,7 +2,7 @@
 #include <LoadTD>
 
 forward LoadTest(playerid);
-public LoadTest(playerid)	//Callbacks kalau Loadingnya udah 100% Makan script akan memanggil Callbacks yang kalian buat
+public LoadTest(playerid)	//Callbacks kalau Loadingnya udah 100% Maka script akan memanggil Callbacks yang kalian buat
 {
 	SendClientMessage(playerid, -1, "Loading Succes");
 	return 1;
