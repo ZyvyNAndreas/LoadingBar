@@ -8,7 +8,6 @@ forward FunctionLoadingTest(playerid);
 public FunctionLoadingTest(playerid)
 {
 	SendClientMessage(playerid, -1, "Loading Succes");	return 1;
-
 }
 
 public OnPlayerCommandText(playerid, cmdtext[])
